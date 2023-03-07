@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_achivements_achivements",
+  "info": {
+    "displayName": "Achivements"
+  },
+  "options": {},
+  "attributes": {
+    "NumberOfClients": {
+      "type": "string"
+    },
+    "NumberOfTools": {
+      "type": "string"
+    },
+    "NumberOfEmployees": {
+      "type": "string"
+    },
+    "Growth": {
+      "type": "string"
+    }
+  }
+}

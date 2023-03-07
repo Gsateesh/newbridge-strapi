@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "HomePage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Achivements": {
+      "type": "component",
+      "repeatable": true,
+      "component": "achivements.achivements"
+    },
+    "Clients": {
+      "type": "component",
+      "repeatable": true,
+      "component": "clients.clients"
+    },
+    "GetInTouch": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contact-us-info.contact-us-info"
+    }
+  }
+}

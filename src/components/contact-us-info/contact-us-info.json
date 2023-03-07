@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_contact_us_info_contact_us_infos",
+  "info": {
+    "displayName": "ContactUsInfo"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "QuickContactTitle": {
+      "type": "string"
+    },
+    "PhoneNumber": {
+      "type": "string"
+    },
+    "EmailAddress": {
+      "type": "string"
+    }
+  }
+}
