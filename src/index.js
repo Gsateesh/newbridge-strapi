@@ -5,7 +5,7 @@ module.exports = {
    * An asynchronous register function that runs before
    * your application is initialized.
    *
-   * This gives you an opportunity to extend code. Yes.
+   * This gives you an opportunity to extend code. Yes1.
    */
   register(/*{ strapi }*/) { },
 
