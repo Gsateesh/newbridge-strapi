@@ -18,11 +18,6 @@
     "Description": {
       "type": "richtext"
     },
-    "Achivements": {
-      "type": "component",
-      "repeatable": true,
-      "component": "achivements.achivements"
-    },
     "Clients": {
       "type": "component",
       "repeatable": true,
