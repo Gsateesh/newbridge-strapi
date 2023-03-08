@@ -1,6 +1,18 @@
 ### run command below for editing in strapi
 npm run develop
 
+observe the workflow file for quick cicd using zip file config.
+
+Also we need to configure package.json like below,
+
+"scripts": {
+    "develop": "strapi develop",
+    "start": "node node_modules/@strapi/strapi/bin/strapi.js start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+
+
 # 🚀 Getting started with Strapi
 
 Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html) (CLI) which lets you scaffold and manage your project in seconds.
